@@ -54,7 +54,7 @@ const OptInForm: React.FC = () => {
         />
         <ValidationError
           prefix="Email address"
-          field="email_address"
+          field="emailAddress"
           errors={errors}
           className="py-2 text-red-600 text-sm font-bold"
         />
